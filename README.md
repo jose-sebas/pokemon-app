@@ -47,5 +47,35 @@ npm run build
 npm run lint
 ```
 
+<<<<<<< Updated upstream
 <img width="1000" height="436" alt="chrome-capture-2026-10-15" src="https://github.com/user-attachments/assets/4b0f21f2-9930-441a-89ca-226f42f5bbce" />
 
+=======
+## 🤖 AI Usage & Technical Decisions (Frontend)
+
+This section outlines the development process, technical choices, and transparency regarding AI utilization for the frontend application.
+
+### 1. AI Tools & Agents Used
+
+- **ChatGPT / Gemeni:** Used specifically to assist with **TypeScript integration** and configuring types for the project.
+- **None for Scaffolding:** No AI tools were used to generate the base project structure, as it was done manually.
+
+### 2. Prompt Iteration
+
+- **Initial Prompt (TypeScript Configuration):**
+  > _"How do I properly configure TypeScript in a newly created Vue 3 project to ensure strict type checking and avoid compilation errors with external API data?"_
+- **Iteration & Refinement (API Typing):** Once the setup was ready, I used the assistant to map the complex responses from the public API:
+  > _"Based on the PokeAPI payload structure, help me define the TypeScript interfaces for a Pokémon's stats, types, and sprites to ensure type safety in my Vue components."_
+
+### 3. Technical Decisions & AI Suggestions
+
+- **The Stack:** **Vue.js (Vue 3)** and **TypeScript**.
+- **Core Architectural Decisions:**
+  - _Decision Origin:_ **I decided to scaffold the project on my own** using the official command `npm create vue@latest` since I have solid experience with frontend development and wanted a clean, predictable base.
+  - _TypeScript Integration:_ While the core features were straightforward for me to implement, **I decided to leverage AI suggestions** to optimize the `tsconfig.json` setup and structure the strict type definitions for the external Pokémon data. This ensured a robust, type-safe ecosystem from the start.
+
+### 4. Verification & Code Review
+
+- **Review Process:** I manually reviewed all AI-suggested TypeScript interfaces against the official PokeAPI documentation to ensure no fields were mismatched or missing.
+- **Testing & Refinement:** Any overly generic types (like `any`) suggested by the assistant during fast autocompletions were rejected and replaced with strict, explicit types to maintain code quality. Features were verified in the browser using **Vue DevTools**.
+>>>>>>> Stashed changes
