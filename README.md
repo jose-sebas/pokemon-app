@@ -46,3 +46,6 @@ npm run build
 ```sh
 npm run lint
 ```
+
+<img width="1000" height="436" alt="chrome-capture-2026-10-15" src="https://github.com/user-attachments/assets/4b0f21f2-9930-441a-89ca-226f42f5bbce" />
+
