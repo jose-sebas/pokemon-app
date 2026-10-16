@@ -47,10 +47,8 @@ npm run build
 npm run lint
 ```
 
-<<<<<<< Updated upstream
 <img width="1000" height="436" alt="chrome-capture-2026-10-15" src="https://github.com/user-attachments/assets/4b0f21f2-9930-441a-89ca-226f42f5bbce" />
 
-=======
 ## 🤖 AI Usage & Technical Decisions (Frontend)
 
 This section outlines the development process, technical choices, and transparency regarding AI utilization for the frontend application.
@@ -78,4 +76,3 @@ This section outlines the development process, technical choices, and transparen
 
 - **Review Process:** I manually reviewed all AI-suggested TypeScript interfaces against the official PokeAPI documentation to ensure no fields were mismatched or missing.
 - **Testing & Refinement:** Any overly generic types (like `any`) suggested by the assistant during fast autocompletions were rejected and replaced with strict, explicit types to maintain code quality. Features were verified in the browser using **Vue DevTools**.
->>>>>>> Stashed changes
